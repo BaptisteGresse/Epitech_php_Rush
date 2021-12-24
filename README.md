@@ -1,1 +1,4 @@
-# Epitech_php_Rush
+# Epitech_Rush_Projet
+
+semaine rush php :
+
