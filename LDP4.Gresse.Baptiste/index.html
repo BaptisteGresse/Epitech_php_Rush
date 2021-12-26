@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Exercice Final</title>
+</head>
+<body>
+    <form action="checkThatForm.php" method="post">
+        Prenom :<input type="text" name="user_firstname">
+        <br>
+        Nom :<input type="text" name="user_lastname">
+        <br>
+        E-mail :<input type="email" name="user_email">
+        <br>
+        Age :<input type="text" name="user_age">
+        <br>
+        Bachelor :<input type="text" name="user_bachelor">
+        <br>
+        Mot de passe :<input type="password" name="user_password">
+        <br>
+        Retapez le mot de passe :<input type="password" name="user_confirmpassword">
+        <br>
+        Sexe : 
+        <br>
+        <input type="radio" name="sexe" value="femme">femme
+        <br>
+        <input type="radio" name="sexe" value="homme">homme
+        <br>
+        Sexe:
+        <br>
+        <input type="checkbox" name="tome" value="tome1">Le Guide du voyageur galactique
+        <br>
+        <input type="checkbox" name="tome" value="tome2">Le Dernier Restaurant avant la Fin du Monde
+        <br>
+        <input type="checkbox" name="tome" value="tome3">La Vie, l'Univers et le Reste
+        <br>
+        <input type="checkbox" name="tome" value="tome4">Salut, et encore merci pour le poisson
+        <br>
+        <input type="checkbox" name="tome" value="tome">Globalement inoffensive
+        <br>
+        Un petit commentaire ?
+        <br>
+        <textarea id="textarea" name="user_textarea" cols="30" rows="3" readonly>&lt;b&gt;si ce texte s'affiche en gras, u lost the game&lt;/b&gt;</textarea>
+        <br>
+        <input type="submit" name="submit">
+
+
+    </form>
+</body>
+</html>
